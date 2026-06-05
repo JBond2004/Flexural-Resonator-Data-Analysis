@@ -1,6 +1,10 @@
 This GitHub Repo contains code used for analysing the Lorentzian output of flexural resonators in order to estimate the 
 density and viscosity of fluids. It should be noted that the code is designed with tuning forks in mind, but should work for any flexural piezoelectric resonator.
 
+The code is designed specifically to open and read .txt files that the Zurich Instruments HF2LI Lock-in Amplifier produce,
+it is likely other file types could be used as long as they are of similar format. Examples of the files can be found in
+the Data folder, which contains all the frequency sweeps performed during my masters project. 
+
 The code currently utilises three analytical models derived from literature, being
 the least-squares algorithm - applied to both the real and imaginary admittance/impedance spectra,
 then Reittinger's frequency tracking model [1] and Zhang's Hydrodynamic model [2].
