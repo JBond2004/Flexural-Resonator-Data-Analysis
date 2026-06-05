@@ -1,5 +1,5 @@
 This GitHub Repo contains code used for analysing the Lorentzian output of flexural resonators in order to estimate the 
-density and viscosity of fluids. 
+density and viscosity of fluids. It should be noted that the code is designed with tuning forks in mind, but should work for any flexural piezoelectric resonator.
 
 The code currently utilises three analytical models derived from literature, being
 the least-squares algorithm - applied to both the real and imaginary admittance/impedance spectra,
