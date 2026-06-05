@@ -24,3 +24,10 @@ Description of models used can be found in the pdf attached of my master's thesi
 
 ## Contact
 For questions, bug reports, or collaboration inquiries, please open a GitHub Issue or contact j.bond6@lancaster.ac.uk
+
+## References
+[1] P. W. Reittinger, System and method for determining producibility of a formation using flexural mechanical resonator measurements, 
+US Patent 7,844,401, 2010
+[2] M. Zhang et al. A Hydrodynamic Model for Measuring Fluid Density and Viscosity by Using Quartz Tuning Forks, 
+Sensors (Basel, Switzerland), vol. 20, no. 1, p. 198, 2019
+[3] L. F. Matsiev, Application of flexural mechanical resonators to high throughput liquid characterization, IEEE Ultrasonics Symposium. Proceedings. An International Symposium (Cat. No.00CH37121), IEEE, 2000
