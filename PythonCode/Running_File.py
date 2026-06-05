@@ -1,8 +1,8 @@
-from Fork_Calibration import ForkCalibration
-from Fork_Sensor import ForkSensor
+from ResonatorClasses.Fork_Calibration import ForkCalibration
+from ResonatorClasses.Fork_Sensor import ForkSensor
 from AqGlyc_Calculator import AqGly_rho_eta
 import numpy as np
-print('yo')
+
 ResistorFilename = "Data/R_CalFile_20-28kHz_2000points_100mVpk.txt"
 CalibrationResistorDrivingVoltage = 0.1
 AirFilename = "Data/Initial data collected (pre week 5)/TF1_airsweep_25-28kHz_20251024.txt"

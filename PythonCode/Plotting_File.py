@@ -1,7 +1,7 @@
 from matplotlib import pyplot as plt
-from Read_Fork_Data import ForkData
+from ResonatorClasses.Read_Fork_Data import ForkData
 import numpy as np
-print('yo')
+
 plt.rcParams.update({
         "font.size": 10,
         "font.family": "sans-serif",

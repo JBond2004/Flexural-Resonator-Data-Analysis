@@ -1,8 +1,8 @@
 #Sample code to run density and viscosity measurements with TF
-from Read_Fork_Data import ForkData
-from Fork_Calibration import ForkCalibration
-from Fork_Sensor import ForkSensor
-from AqGlyc_Calculator import AqGly_rho_eta
+from PythonCode.ResonatorClasses.Read_Fork_Data import ForkData
+from PythonCode.ResonatorClasses.Fork_Calibration import ForkCalibration
+from PythonCode.ResonatorClasses.Fork_Sensor import ForkSensor
+from PythonCode.AqGlyc_Calculator import AqGly_rho_eta
 import numpy as np
 
 #Boolean variables for each fitting method, set to false if you 

@@ -1,8 +1,7 @@
 #Test to see impact of different variables
 import matplotlib.pyplot as plt
 import numpy as np
-from Read_Fork_Data import ForkData
-
+from ResonatorClasses.Read_Fork_Data import ForkData
 
 def total_impedance(f, 
                     Rm, Cm, Lm,
@@ -163,7 +162,7 @@ plt.xticks(fontsize=15)
 plt.yticks(fontsize=15)
 plt.show()"""
 
-"""fig, axs = plt.subplots(2, 1, sharex=True)
+fig, axs = plt.subplots(2, 1, sharex=True)
 
 axs[1].errorbar(real_density_list, np.abs(np.array(res_imp_rho) + np.array(res_freq_rho)*2*np.pi*C0)*1e-6,
                 np.array(sigma_res_imp_rho)*1e-6, fmt='o',
@@ -221,7 +220,7 @@ plt.yscale('log')
 plt.legend(fontsize=15)
 plt.xticks(fontsize=15)
 plt.yticks(fontsize=15)
-plt.show()"""
+plt.show()
 #Viscosity
 rho_real = 1
 

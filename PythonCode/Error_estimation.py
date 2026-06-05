@@ -1,7 +1,6 @@
 #Error estimation
-from Read_Fork_Data import ForkData
+from ResonatorClasses.Read_Fork_Data import ForkData
 import numpy as np
-
 
 R_file = "Data/R_CalFile_20-28kHz_2000points_100mVpk.txt"
 
